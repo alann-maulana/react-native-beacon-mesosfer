@@ -1,6 +1,5 @@
-
 import { NativeModules } from 'react-native';
 
-const { RNReactNativeBeaconMesosfer } = NativeModules;
+const { MFBBeaconMesosfer } = NativeModules;
 
-export default RNReactNativeBeaconMesosfer;
+export default MFBBeaconMesosfer;

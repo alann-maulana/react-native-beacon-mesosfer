@@ -1,11 +1,16 @@
-
 {
   "name": "react-native-beacon-mesosfer",
+  "title": "React Native Beacon Mesosfer",
   "version": "0.1.0",
   "description": "React native beacon scanner and sender to Mesosfer for Android and iOS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alann-maulana/react-native-beacon-mesosfer.git",
+    "baseUrl": "https://github.com/alann-maulana/react-native-beacon-mesosfer"
   },
   "keywords": [
     "react-native",
@@ -13,12 +18,19 @@
     "ibeacon",
     "mesosfer"
   ],
-  "author": "Alann Maulana <maulana@cubeacon.com>",
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "react-native": "^0.60.5"
+  "author": {
+    "name": "Alann Maulana",
+    "email": "maulana@cubeacon.com"
   },
+  "license": "Apache-2.0",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
   "peerDependencies": {
-    "react-native": "^0.60.5"
+    "react": "^16.8.1",
+    "react-native": ">=0.59.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.10"
   }
 }
